@@ -68,6 +68,7 @@ body {
   height: auto;
   margin: 10px 20px;
   border-radius: 7px;
+  object-fit: cover;
 }
 
 .imgs-container li {
