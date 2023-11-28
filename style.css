@@ -42,9 +42,12 @@ body {
 .rec-header {
   text-align: center;
   font-size: 40px;
-  background-color: var(--rec-header-color);
+  border: 3px solid var(--rec-header-color);
+  border-left: none;
+  border-right: none;
   margin: 0px;
-  padding: 15px;
+  margin-top: 25px;
+  padding: 10px;
 }
 
 .imgs-container {
@@ -55,7 +58,7 @@ body {
 
 .imgs-container {
   padding: 0px;
-  margin-top: 30px;
+  margin-top: 15px;
   text-align: center;
   font-size: 25px;
 }
