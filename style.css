@@ -2,6 +2,7 @@
   --white-color: #fff;
   --black-color: #000;
   --header-color: rgb(55, 55, 55);
+  --rec-header-color: rgb(247, 165, 165);
 }
 
 *,
@@ -34,6 +35,51 @@ body {
   background: url(images/food-bg.jpg) no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 25rem;
+  height: 23rem;
   object-fit: cover;
+}
+
+.rec-header {
+  text-align: center;
+  font-size: 40px;
+  background-color: var(--rec-header-color);
+  margin: 0px;
+  padding: 15px;
+}
+
+.imgs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgs-container {
+  padding: 0px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-container img {
+  width: 450px;
+  height: auto;
+  margin: 10px 20px;
+  border-radius: 7px;
+}
+
+.imgs-container li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.imgs-container a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: bold;
+  transition: 0.2s ease-out;
+}
+
+.imgs-container a:hover {
+  color: gray;
+  transition: 0.2s ease-out;
 }
