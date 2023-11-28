@@ -143,3 +143,7 @@ ul li::before {
   width: 1em;
   margin-left: -0.95em;
 }
+
+.li::before {
+  content: " ";
+}
